@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="./img/logo1.png" sizes="64x64" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dhelicia</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark color-nav">
+        <div class="container-fluid">
+            <img src="./img/logo1.png" width="60" alt="logo" class="me-2">
+            <a class="navbar-brand me-5" href="#">Dhelicia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#valores">Valores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Cardápio-->
+    <div id="cardapio" class="container mt-1 bg-light rounded">
+        <div class="row mt-5">
+            <div class="col">
+                <div class="display-5">
+                    Brigadeiros
+                </div>
+                <p>Para comer sem culpa</p>
+            </div>
+        </div>
+        <div class="col">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Chocolate</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Bicho de Pé</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="ninho-tab" data-bs-toggle="tab" data-bs-target="#ninho-tab-pane"
+                        type="button" role="tab" aria-controls="ninho-tab-pane" aria-selected="false">Ninho com Nutella</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pistache-tab" data-bs-toggle="tab" data-bs-target="#pistache-tab-pane"
+                        type="button" role="tab" aria-controls="pistache-tab-pane" aria-selected="false">Pistache</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="display-6">Brigadeiro de chocolate</div>
+                    <p>O tradicional brigadeiro de chocolate com granulado, contendo somente <b>60kcal</b> a unidade</p>
+                    <img src="./img/chocolate.jpg" alt="chocolate" class="shadow rounded img-fluid fixed-size-img">
+                    <p>Ingredientes: Leite condensado, chocolate em pó, creme de leite e granulado.</p>
+                    <span>Imagem ilustrativa</span>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <div class="display-6">Brigadeiro Bicho de Pé</div>
+                    <p>O delicioso brigadeiro de morango, contendo somente <b>60kcal</b> a unidade</p>
+                    <img src="./img/bicho.jpg" alt="bicho de pé" class="shadow rounded img-fluid fixed-size-img">
+                    <p>Ingredientes: Leite condensado, gelatina de morango, creme de leite e açúcar cristal.</p>
+                    <span>Imagem ilustrativa</span>
+                </div>
+                <div class="tab-pane fade" id="ninho-tab-pane" role="tabpanel" aria-labelledby="ninho-tab" tabindex="0">
+                    <div class="display-6">Brigadeiro Ninho com Nutella</div>
+                    <p>O irresistível brigadeiro de leite ninho com Nutella, contendo somente <b>80kcal</b> a unidade</p>
+                    <img src="./img/ninho.jpg" alt="ninho com nutella" class="shadow rounded img-fluid fixed-size-img">
+                    <p>Ingredientes: Leite condensado, leite em pó, creme de leite e Nutella.</p>
+                    <span>Imagem ilustrativa</span>
+                </div>
+                <div class="tab-pane fade" id="pistache-tab-pane" role="tabpanel" aria-labelledby="pistache-tab" tabindex="0">
+                    <div class="display-6">Brigadeiro de Pistache</div>
+                    <p>O sofisticado brigadeiro de pistache, contendo somente <b>70kcal</b> a unidade</p>
+                    <img src="./img/pistache.jpg" alt="pistache" class="shadow rounded img-fluid fixed-size-img">
+                    <p>Ingredientes: Leite condensado, pistache, creme de leite e açúcar.</p>
+                    <span>Imagem ilustrativa</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Valores-->
+    <div id="valores" class="container mt-1 bg-light rounded">
+        <div class="row mt-5">
+            <div class="col">
+                <div class="display-5 mb-3">
+                    Tradicionais
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Unidade</h5>
+                                <p class="card-text">R$ 3,50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit 4 unidades</h5>
+                                <p class="card-text">R$ 12,50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit 6 unidades</h5>
+                                <p class="card-text">R$ 20,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit 12 unidades</h5>
+                                <p class="card-text">R$ 40,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="display-5 mb-3">
+                    Especiais
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Unidade</h5>
+                                <p class="card-text">R$ 4,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit 4 unidades</h5>
+                                <p class="card-text">R$ 15,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit 6 unidades</h5>
+                                <p class="card-text">R$ 23,50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kit 12 unidades</h5>
+                                <p class="card-text">R$ 45,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contato-->
+    <div id="contato" class="container mt-1 bg-light rounded">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-md-6 mb-4">
+                <div class="display-5">
+                    Contato
+                </div>
+                <p>Entre em contato conosco pelo WhatsApp:</p>
+                <a href="https://wa.me/5511942733670?text=Olá,%20eu%20gostaria%20de%20encomendar%20os%20brigadeiros%20Dhelicia!" target="_blank" class="btn btn-success">
+                    <i class="bi bi-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+            <div class="col-12 col-md-6 mb-1">
+                <div class="display-5">
+                    Baixar Cardápio
+                </div>
+                <p>Baixe o nosso cardápio completo:</p>
+                <a href="./img/cardápio.pdf" download class="btn btn-primary mb-4">
+                    <i class="bi bi-download"></i> Baixar Cardápio
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-12 col-md-4 d-flex align-items-center justify-content-md-start justify-content-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="text-muted">© 2025 Dhelicia, Inc</span>
+            </div>
+        </footer>
+    </div>
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
