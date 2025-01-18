@@ -33,10 +33,7 @@ button.nav-link:hover {
 
 /* Estilo para dispositivos móveis */
 @media (max-width: 768px) {
-    .nav-link:focus {
-        color: pink;
-    }
-    .nav-link.active {
+    .nav-link:focus, .nav-link:active, .nav-link.show, .nav-link.active {
         color: pink;
     }
 }
