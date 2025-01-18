@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
         var scrollPosition = window.scrollY || document.documentElement.scrollTop;
         var triggerPosition = document.querySelector('#valores').offsetTop;
 
+        console.log('Scroll Position:', scrollPosition);
+        console.log('Trigger Position:', triggerPosition);
+
         if (window.innerWidth <= 768 && scrollPosition > triggerPosition) {
             backToTopButton.style.display = 'flex';
         } else {
