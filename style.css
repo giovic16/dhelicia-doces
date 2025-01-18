@@ -31,6 +31,36 @@ button.nav-link:hover {
     text-align: center;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none; /* Remove a marca de link */
+}
+
+.back-to-top img.logo1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top .tooltip-text {
+    background-color: #fff; /* Fundo branco */
+    color: #000; /* Cor do texto preta */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-bottom: 5px; /* Espaço entre o texto e o logo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Estilo para dispositivos móveis */
 @media (max-width: 768px) {
     button.nav-link:focus, button.nav-link:active, button.nav-link.show, button.nav-link.active {
