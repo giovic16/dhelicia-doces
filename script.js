@@ -1,8 +1,11 @@
-window.onscroll = function() {
+document.addEventListener("DOMContentLoaded", function() {
     var backToTopButton = document.querySelector('.back-to-top');
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        backToTopButton.style.display = 'flex';
-    } else {
-        backToTopButton.style.display = 'none';
-    }
-};
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > window.innerHeight / 2) {
+            backToTopButton.style.display = 'flex';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    });
+});
