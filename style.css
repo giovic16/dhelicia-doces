@@ -30,3 +30,10 @@ button.nav-link:hover {
     align-items: center;
     text-align: center;
 }
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    button {
+        background-color: pink; /* Define a cor de fundo rosa para os botões */
+    }
+}
